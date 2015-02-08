@@ -16,10 +16,17 @@ API
 Place the following code directly into any page that you would like to display the banner on, or create a custom .js file, place this code inside, and simply link that custom file to any page you would like to have a banner on
 
 ```javascript
+$(document).ready(function(){
 SmartBanner({
 //parameters
 });
+});
 ```
+
+Requirements
+------------
+jQuery: http://jquery.com
+jQuery Cookie: https://github.com/carhartl/jquery-cookie
 
 Parameters
 ----------
@@ -84,3 +91,7 @@ Parameters
 
 **cookiedays**: "-1" - Number of days the user should not be prompted with the banner after engaging it once (-1 means no cookies will be used and banner will display every time)
 
+Attribution
+-----------
+All Original Code
+Concept based on jQuery Smart Banner: http://jasny.github.io/jquery.smartbanner/
