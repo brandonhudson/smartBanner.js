@@ -25,7 +25,7 @@ SmartBanner({
 
 Requirements
 ------------
-jQuery: http://jquery.com
+jQuery: http://jquery.com <br>
 jQuery Cookie: https://github.com/carhartl/jquery-cookie
 
 Parameters
@@ -93,5 +93,5 @@ Parameters
 
 Attribution
 -----------
-All Original Code
+All Original Code <br>
 Concept based on jQuery Smart Banner: http://jasny.github.io/jquery.smartbanner/
