@@ -16,15 +16,12 @@ API
 Place the following code directly into any page that you would like to display the banner on, or create a custom .js file, place this code inside, and simply link that custom file to any page you would like to have a banner on
 
 ```javascript
-$(document).ready( function(){
-	parameters = {
-  //parameters
-	} 
-	SmartBanner(parameters);
-	
-}
-
+SmartBanner(
+//parameters
 );
+	
+
+
 ```
 
 Parameters
