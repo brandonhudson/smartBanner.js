@@ -39,7 +39,6 @@ Parameters
   <LI>"top" - places banner at the top of the page, over all content at the top</LI>
   <LI>"bottom" - places banner tha the bottom of he page, over all content at the bottom</LI>
   </ul>
-  </ul>
 	
 **mode**: "app-type" - select a mode to run your banner in
 <ul>
