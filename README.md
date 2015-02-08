@@ -50,7 +50,7 @@ Parameters
 	"native-app" - In native-app mode, the VIEW button provides a link to the device-specific app store where your           application is being sold
 	</LI>
 	</UL>
-	</ul>
+</ul>
 	
 
 **ios**: "true/false" - Support smart banner on iOS (True = Support / False = No Support)
@@ -81,5 +81,5 @@ Parameters
 
 **bannerslidespeed**: 200 - speed that the banner should slide at (any number)
 
-**cookiedays**: -1 // -1 means no cookies will be used and banner will display every time
+**cookiedays**: "-1" - Number of days the user should not be prompted with the banner after engaging it once (-1 means no cookies will be used and banner will display every time)
 
