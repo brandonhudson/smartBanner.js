@@ -19,9 +19,6 @@ Place the following code directly into any page that you would like to display t
 SmartBanner({
 //parameters
 });
-	
-
-
 ```
 
 Parameters
@@ -69,20 +66,21 @@ Parameters
 
 **applinkwindows**: "http://apps.microsoft.com/windows/en-us/app/yourapp" - Link to your application in the Microsoft Store
 
-messageios: "on the App Store"
+**messageios**: "on the App Store" - Message to display for iOS users
 
-messageandroid: "on Google Play"
+**messageandroid**: "on Google Play" - Message to display for Android users
 
-messagewindows: "on the Microsoft Store"
+**messagewindows**: "on the Microsoft Store" - Message to display for Windows users
 
-force: "ios"
+**force**: "ios/android/windows" - Force the Banner on a specific platform 
 
-theme: "dark"
+**theme**: "dark/light" - Use a preset theme on the banner
 
-alertfadespeed: 400
+**alertfadespeed**: 400 - speed that the animation should fade away (any number)
 
-alertdelay: 3000
-bannerslidespeed: 200
+**alertdelay**: 3000 - timeframe that the banner should be present after the user engages it (for use with web-app mode)
 
-cookiedays: -1 // -1 means no cookies will be used and banner will display every time
+**bannerslidespeed**: 200 - speed that the banner should slide at (any number)
+
+**cookiedays**: -1 // -1 means no cookies will be used and banner will display every time
 
